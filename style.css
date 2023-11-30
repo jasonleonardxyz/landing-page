@@ -4,12 +4,15 @@ body{
     flex:1;
 }
 
+/*section 1 layout*/
+
 .section1{
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
+/*header*/
 .header{
     display: flex;
     align-items: center;
@@ -36,4 +39,34 @@ ul{
     display: flex;
     margin-right: auto;
     gap: 16px;
+}
+
+/*hero section*/
+.section1_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px;
+    padding: 16px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.imageplaceholder{
+    display: flex;
+    flex-direction: column;
+    height:150px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.signup{
+    margin-right: auto;
 }
