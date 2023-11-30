@@ -11,13 +11,29 @@ body{
 }
 
 .header{
-    display:flex;
+    display: flex;
+    align-items: center;
     flex: 1;
+    padding: 16px;
 }
 
 ul{
     display: flex;
-    flex: 1;
-    margin:0;
-    padding:0;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.right-items{
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.left-items{
+    display: flex;
+    margin-right: auto;
+    gap: 16px;
 }
