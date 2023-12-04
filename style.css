@@ -1,11 +1,12 @@
 body{
     height: 100vh;
+    width: 100vh;
     margin: 0;
     display: flex;
     flex-direction:column;
-    flex: 1;
     justify-content:space-between;
-    align-items: center;
+    align-items:center;
+    overflow: hidden;
 }
 
 /*section 1 layout*/
@@ -15,6 +16,9 @@ body{
     flex-direction: column;
     flex: 1;
     background-color: #1F2937;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 20px;
 }
 
 /*header*/
@@ -87,6 +91,8 @@ ul{
     background-color:#3882F6;
     border-radius: 5px;
     color:#E5E7EB;
+    padding: 5px;
+    border: 0px;
 }
 
 .hero_primary{
@@ -109,6 +115,7 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 16px;
+    padding: 16px;
     
 }
 
@@ -122,6 +129,8 @@ ul{
     display: flex;
     flex: 1;
     gap: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .info{
@@ -133,8 +142,8 @@ ul{
 
 .card{
     height: 150px;
-    width: 100px;
-    flex-shrink: 0;
+    width: 150px;
+    flex-grow: 1;
     border: solid #3882F6;
     border-radius: 25px;
 }
@@ -149,6 +158,9 @@ ul{
     flex-direction: column;
     padding: 16px;
     background-color: #E5E7EB;
+    padding: 48px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .quotes{
@@ -156,7 +168,6 @@ ul{
     font-size: 24px;
     font-style: light-italic;
     color: #1F2937;
-    
 }
 
 .attribution{
@@ -198,6 +209,7 @@ ul{
     border-radius: 5px;
     border: 2px solid white;
     color:#F9FAF8;
+    padding: 5px;
 }
 
 /*footer*/
@@ -207,6 +219,8 @@ ul{
     align-items:center;
     padding: 8px;
     background-color: #1F2937;
+    color:#E5E7EB;
+    width: 100%;
 }
 
 
