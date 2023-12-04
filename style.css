@@ -39,13 +39,18 @@ ul{
     display: flex;
     margin-left: auto;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .left-items{
     display: flex;
     margin-right: auto;
     gap: 16px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
 
 /*hero section*/
 .section1_container{
@@ -72,12 +77,27 @@ ul{
     width: 300px;
     text-align: center;
     justify-content: center;
+    background-color: gray;
+    color: white;
     
 }
 
 .signup{
     margin-right: auto;
     background-color:#3882F6;
+    border-radius: 5px;
+    color:#E5E7EB;
+}
+
+.hero_primary{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero_secondary{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /*section 2 layout*/
@@ -89,6 +109,13 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 16px;
+    
+}
+
+.info_header{
+   font-size: 36px;
+   font-weight: extra-bold;
+   color: #1F2937; 
 }
 
 .info_container{
@@ -100,12 +127,16 @@ ul{
 .info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
     height: 150px;
     width: 100px;
     flex-shrink: 0;
+    border: solid #3882F6;
+    border-radius: 25px;
 }
 
 .infotext{
@@ -122,11 +153,15 @@ ul{
 
 .quotes{
     text-align: justify;
+    font-size: 24px;
+    font-style: light-italic;
+    color: #1F2937;
     
 }
 
 .attribution{
     text-align: right;
+    font-weight: bold;
 }
 
 /*section 4*/
@@ -144,6 +179,8 @@ ul{
     align-items: center;
     gap: 16px;
     background-color: #3882F6;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .actiontext{
@@ -152,6 +189,15 @@ ul{
     align-items: left;
     margin: 16px;
     background-color:#3882F6;
+    color:#F9FAF8;
+}
+
+.signup2{
+    margin-right: auto;
+    background-color:#3882F6;
+    border-radius: 5px;
+    border: 2px solid white;
+    color:#F9FAF8;
 }
 
 /*footer*/
@@ -162,4 +208,6 @@ ul{
     padding: 8px;
     background-color: #1F2937;
 }
+
+
 
