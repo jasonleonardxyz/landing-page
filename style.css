@@ -143,3 +143,11 @@ ul{
     margin: 16px;
 }
 
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
